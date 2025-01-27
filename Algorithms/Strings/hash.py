@@ -1,3 +1,5 @@
+# Use built-in modules and libraries for hashing securely.
+
 def custom_hash(seed, input_value):
     if not isinstance(input_value, (str, int, bytes)):
         raise TypeError("Input must be either str, int or bytes!")
